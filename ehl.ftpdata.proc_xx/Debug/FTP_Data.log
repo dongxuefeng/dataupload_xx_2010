@@ -1,0 +1,120 @@
+﻿生成启动时间为 16/6/5 9:46:08。
+     1>项目“E:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\FTP_Data.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+     1>InitializeBuildStatus:
+         正在创建“Debug\ehl.ftpdata.proc.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt check_file_path.cpp FTP_Data.cpp process_data\process_datatostd.cpp public.cpp send_datafile.cpp xxlib\c_windows_service.cpp xxlib\plugin\user_plug_prcdata.cpp
+         user_plug_prcdata.cpp
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\xxlib\plugin\user_plug_prcdata.cpp(17): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\xxlib\plugin\user_plug_prcdata.cpp(138): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\xxlib\plugin\user_plug_prcdata.cpp(149): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\xxlib\plugin\user_plug_prcdata.cpp(150): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\xxlib\plugin\user_plug_prcdata.cpp(156): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\xxlib\plugin\user_plug_prcdata.cpp(159): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+         c_windows_service.cpp
+         send_datafile.cpp
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\send_datafile.cpp(33): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\send_datafile.cpp(21) : 忽略“i”的定义
+                 e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\send_datafile.cpp(15) : 使用“i”的定义
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\send_datafile.cpp(49): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\send_datafile.cpp(136): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\send_datafile.cpp(121): warning C4101: “strref”: 未引用的局部变量
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\send_datafile.cpp(343): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\send_datafile.cpp(422): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+         public.cpp
+         process_datatostd.cpp
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\cxx_xml.h(33): error C2784: “std::_Vb_iterator<_Alloc> std::operator +(_Alloc::difference_type,std::_Vb_iterator<_Alloc>)”: 未能从“const char [2]”为“std::_Vb_iterator<_Alloc>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\vector(1985) : 参见“std::operator +”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\cxx_xml.h(33): error C2784: “std::_Vb_const_iterator<_Alloc> std::operator +(_Alloc::difference_type,std::_Vb_const_iterator<_Alloc>)”: 未能从“const char [2]”为“std::_Vb_const_iterator<_Alloc>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\vector(1878) : 参见“std::operator +”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\cxx_xml.h(33): error C2784: “std::_Vector_iterator<_Myvec> std::operator +(_Vector_iterator<_Myvec>::difference_type,std::_Vector_iterator<_Myvec>)”: 未能从“const char [2]”为“std::_Vector_iterator<_Myvec>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\vector(407) : 参见“std::operator +”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\cxx_xml.h(33): error C2784: “std::_Vector_const_iterator<_Myvec> std::operator +(_Vector_const_iterator<_Myvec>::difference_type,std::_Vector_const_iterator<_Myvec>)”: 未能从“const char [2]”为“std::_Vector_const_iterator<_Myvec>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\vector(276) : 参见“std::operator +”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\cxx_xml.h(33): error C2784: “std::_String_iterator<_Elem,_Traits,_Alloc> std::operator +(_String_iterator<_Elem,_Traits,_Alloc>::difference_type,std::_String_iterator<_Elem,_Traits,_Alloc>)”: 未能从“const char [2]”为“std::_String_iterator<_Elem,_Traits,_Alloc>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xstring(434) : 参见“std::operator +”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\cxx_xml.h(33): error C2784: “std::_String_const_iterator<_Elem,_Traits,_Alloc> std::operator +(_String_const_iterator<_Elem,_Traits,_Alloc>::difference_type,std::_String_const_iterator<_Elem,_Traits,_Alloc>)”: 未能从“const char [2]”为“std::_String_const_iterator<_Elem,_Traits,_Alloc>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xstring(293) : 参见“std::operator +”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\cxx_xml.h(33): error C2784: “std::_Array_iterator<_Ty,_Size> std::operator +(_Array_iterator<_Ty,_Size>::difference_type,std::_Array_iterator<_Ty,_Size>)”: 未能从“const char [2]”为“std::_Array_iterator<_Ty,_Size>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2068) : 参见“std::operator +”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\cxx_xml.h(33): error C2784: “std::_Array_const_iterator<_Ty,_Size> std::operator +(_Array_const_iterator<_Ty,_Size>::difference_type,std::_Array_const_iterator<_Ty,_Size>)”: 未能从“const char [2]”为“std::_Array_const_iterator<_Ty,_Size>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(1929) : 参见“std::operator +”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\cxx_xml.h(33): error C2784: “std::reverse_iterator<_RanIt> std::operator +(_Diff,const std::reverse_iterator<_RanIt> &)”: 未能从“const char [2]”为“const std::reverse_iterator<_RanIt> &”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(1323) : 参见“std::operator +”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\cxx_xml.h(33): error C2784: “std::_Revranit<_RanIt,_Base> std::operator +(_Diff,const std::_Revranit<_RanIt,_Base> &)”: 未能从“const char [2]”为“const std::_Revranit<_RanIt,_Base> &”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(1136) : 参见“std::operator +”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\cxx_xml.h(33): error C2676: 二进制“+”:“std::string”不定义该运算符或到预定义运算符可接收的类型的转换
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\cxx_xml.h(62): error C2784: “std::_Vb_iterator<_Alloc> std::operator +(_Alloc::difference_type,std::_Vb_iterator<_Alloc>)”: 未能从“const char [2]”为“std::_Vb_iterator<_Alloc>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\vector(1985) : 参见“std::operator +”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\cxx_xml.h(62): error C2784: “std::_Vb_const_iterator<_Alloc> std::operator +(_Alloc::difference_type,std::_Vb_const_iterator<_Alloc>)”: 未能从“const char [2]”为“std::_Vb_const_iterator<_Alloc>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\vector(1878) : 参见“std::operator +”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\cxx_xml.h(62): error C2784: “std::_Vector_iterator<_Myvec> std::operator +(_Vector_iterator<_Myvec>::difference_type,std::_Vector_iterator<_Myvec>)”: 未能从“const char [2]”为“std::_Vector_iterator<_Myvec>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\vector(407) : 参见“std::operator +”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\cxx_xml.h(62): error C2784: “std::_Vector_const_iterator<_Myvec> std::operator +(_Vector_const_iterator<_Myvec>::difference_type,std::_Vector_const_iterator<_Myvec>)”: 未能从“const char [2]”为“std::_Vector_const_iterator<_Myvec>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\vector(276) : 参见“std::operator +”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\cxx_xml.h(62): error C2784: “std::_String_iterator<_Elem,_Traits,_Alloc> std::operator +(_String_iterator<_Elem,_Traits,_Alloc>::difference_type,std::_String_iterator<_Elem,_Traits,_Alloc>)”: 未能从“const char [2]”为“std::_String_iterator<_Elem,_Traits,_Alloc>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xstring(434) : 参见“std::operator +”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\cxx_xml.h(62): error C2784: “std::_String_const_iterator<_Elem,_Traits,_Alloc> std::operator +(_String_const_iterator<_Elem,_Traits,_Alloc>::difference_type,std::_String_const_iterator<_Elem,_Traits,_Alloc>)”: 未能从“const char [2]”为“std::_String_const_iterator<_Elem,_Traits,_Alloc>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xstring(293) : 参见“std::operator +”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\cxx_xml.h(62): error C2784: “std::_Array_iterator<_Ty,_Size> std::operator +(_Array_iterator<_Ty,_Size>::difference_type,std::_Array_iterator<_Ty,_Size>)”: 未能从“const char [2]”为“std::_Array_iterator<_Ty,_Size>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2068) : 参见“std::operator +”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\cxx_xml.h(62): error C2784: “std::_Array_const_iterator<_Ty,_Size> std::operator +(_Array_const_iterator<_Ty,_Size>::difference_type,std::_Array_const_iterator<_Ty,_Size>)”: 未能从“const char [2]”为“std::_Array_const_iterator<_Ty,_Size>”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(1929) : 参见“std::operator +”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\cxx_xml.h(62): error C2784: “std::reverse_iterator<_RanIt> std::operator +(_Diff,const std::reverse_iterator<_RanIt> &)”: 未能从“const char [2]”为“const std::reverse_iterator<_RanIt> &”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(1323) : 参见“std::operator +”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\cxx_xml.h(62): error C2784: “std::_Revranit<_RanIt,_Base> std::operator +(_Diff,const std::_Revranit<_RanIt,_Base> &)”: 未能从“const char [2]”为“const std::_Revranit<_RanIt,_Base> &”推导 模板 参数
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(1136) : 参见“std::operator +”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\cxx_xml.h(62): error C2676: 二进制“+”:“std::string”不定义该运算符或到预定义运算符可接收的类型的转换
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\process_datatostd.cpp(42): error C2678: 二进制“!=”: 没有找到接受“std::string”类型的左操作数的运算符(或没有可接受的转换)
+                 可能是“内置 C++ operator!=(const char [1], const char [1])”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\system_error(425): 或       “bool std::operator !=(const std::error_code &,const std::error_condition &)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\system_error(432): 或       “bool std::operator !=(const std::error_condition &,const std::error_code &)”
+                 尝试匹配参数列表“(std::string, const char [1])”时
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\process_datatostd.cpp(48): error C2678: 二进制“!=”: 没有找到接受“std::string”类型的左操作数的运算符(或没有可接受的转换)
+                 可能是“内置 C++ operator!=(const char [1], const char [1])”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\system_error(425): 或       “bool std::operator !=(const std::error_code &,const std::error_condition &)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\system_error(432): 或       “bool std::operator !=(const std::error_condition &,const std::error_code &)”
+                 尝试匹配参数列表“(std::string, const char [1])”时
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\process_datatostd.cpp(54): error C2678: 二进制“!=”: 没有找到接受“std::string”类型的左操作数的运算符(或没有可接受的转换)
+                 可能是“内置 C++ operator!=(const char [1], const char [1])”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\system_error(425): 或       “bool std::operator !=(const std::error_code &,const std::error_condition &)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\system_error(432): 或       “bool std::operator !=(const std::error_condition &,const std::error_code &)”
+                 尝试匹配参数列表“(std::string, const char [1])”时
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\process_datatostd.cpp(125): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\process_datatostd.cpp(159): error C2678: 二进制“!=”: 没有找到接受“std::string”类型的左操作数的运算符(或没有可接受的转换)
+                 可能是“内置 C++ operator!=(const char [1], const char [1])”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\system_error(425): 或       “bool std::operator !=(const std::error_code &,const std::error_condition &)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\system_error(432): 或       “bool std::operator !=(const std::error_condition &,const std::error_code &)”
+                 尝试匹配参数列表“(std::string, const char [1])”时
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\process_datatostd.cpp(165): error C2678: 二进制“!=”: 没有找到接受“std::string”类型的左操作数的运算符(或没有可接受的转换)
+                 可能是“内置 C++ operator!=(const char [1], const char [1])”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\system_error(425): 或       “bool std::operator !=(const std::error_code &,const std::error_condition &)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\system_error(432): 或       “bool std::operator !=(const std::error_condition &,const std::error_code &)”
+                 尝试匹配参数列表“(std::string, const char [1])”时
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\process_data\process_datatostd.cpp(171): error C2678: 二进制“!=”: 没有找到接受“std::string”类型的左操作数的运算符(或没有可接受的转换)
+                 可能是“内置 C++ operator!=(const char [1], const char [1])”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\system_error(425): 或       “bool std::operator !=(const std::error_code &,const std::error_condition &)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\system_error(432): 或       “bool std::operator !=(const std::error_condition &,const std::error_code &)”
+                 尝试匹配参数列表“(std::string, const char [1])”时
+         FTP_Data.cpp
+         check_file_path.cpp
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\check_file_path.cpp(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\check_file_path.cpp(74): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\direct.h(124) : 参见“mkdir”的声明
+         正在生成代码...
+     1>已完成生成项目“E:\workspace\dataupload_xx_2010\ehl.ftpdata.proc_xx\FTP_Data.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:11.03
